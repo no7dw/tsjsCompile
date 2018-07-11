@@ -17,7 +17,7 @@
 
 todo:
 
- -- tsc
- -- cp js to out/
- -- run app.js with node
+  - tsc
+  - cp js to out/
+  - run app.js with node
 
