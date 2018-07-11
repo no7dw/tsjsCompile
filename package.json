@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@types/node": "^10.5.2"
+  },
+  "dependencies": {
+    "typescript-require": "^0.2.10",
+    "underscore": "^1.9.1"
+  }
+}
