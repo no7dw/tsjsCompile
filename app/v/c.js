@@ -3,4 +3,4 @@ class Base{
         console.log("this is base")
     }
 }
-module.exports = new Base()
+//module.exports = Base

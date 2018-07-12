@@ -7,4 +7,4 @@ var Base = /** @class */ (function () {
     };
     return Base;
 }());
-module.exports = Base;
+//module.exports = Base

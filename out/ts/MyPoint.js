@@ -9,20 +9,20 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-var un = require('underscore');
-var Base = require('../v/c');
-var Ser = /** @class */ (function (_super) {
-    __extends(Ser, _super);
-    function Ser() {
-        return _super !== null && _super.apply(this, arguments) || this;
+var Point_1 = __importDefault(require("./Point"));
+var MyPoint = /** @class */ (function (_super) {
+    __extends(MyPoint, _super);
+    function MyPoint(name, x, y) {
+        var _this = _super.call(this, x, y) || this;
+        _this.name = name;
+        return _this;
     }
-    Ser.prototype.mul = function () {
-        console.log(un.map([1, 2, 3], function (num) { return num * 3; }));
+    MyPoint.prototype.getName = function () {
+        return this.name;
     };
-    Ser.prototype.mulson = function () {
-        console.log("son", un.map([1, 2, 3], function (num) { return num * 3; }));
-    };
-    return Ser;
-}(Base));
-exports.Ser = Ser;
+    return MyPoint;
+}(Point_1.default));

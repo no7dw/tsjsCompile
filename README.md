@@ -17,7 +17,15 @@
 
 todo:
 
-  - tsc
-  - cp js to out/
+  - tsc  (allowjs:true ,this config make js copy to outDir)
   - run app.js with node
 
+IDE：
+  js 引用ts，在IDE（VS Code） 在跳转 ts , 并无问题.
+
+ERROR:
+
+```
+    Class constructor Point cannot be invoked without 'new' typescript
+```
+   [fix  cannot be invoked without 'new'] ('https://github.com/RobinBuschmann/sequelize-typescript/issues/222')

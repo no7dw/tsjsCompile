@@ -9,20 +9,16 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-Object.defineProperty(exports, "__esModule", { value: true });
-var un = require('underscore');
 var Base = require('../v/c');
+// let base = new Base()
 var Ser = /** @class */ (function (_super) {
     __extends(Ser, _super);
     function Ser() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     Ser.prototype.mul = function () {
-        console.log(un.map([1, 2, 3], function (num) { return num * 3; }));
-    };
-    Ser.prototype.mulson = function () {
-        console.log("son", un.map([1, 2, 3], function (num) { return num * 3; }));
+        console.log("abc");
     };
     return Ser;
 }(Base));
-exports.Ser = Ser;
+module.exports = Ser;
