@@ -11,4 +11,4 @@ class MyPoint extends Point {
         return this.name;
     }
 }
-exports.default = MyPoint;
+exports.MyPoint = MyPoint;

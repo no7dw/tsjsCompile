@@ -4,5 +4,7 @@
     "target": "es6",
     "moduleResolution": "node",
     "lib": ["es5", "dom"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
   }
 }

@@ -1,7 +1,7 @@
 //import Point from './Point'
 const Point = require('./Point')
 
-export default class MyPoint extends Point {
+export class MyPoint extends Point {
     private name: string;
 
     constructor(name: string, x?: number, y?: number) {
